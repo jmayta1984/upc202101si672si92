@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Musicfy</string>
+    <string name="hint_artist">Artist</string>
+    <string name="bt_search">search</string>
+</resources>
