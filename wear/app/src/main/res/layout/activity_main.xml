@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:padding="8dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        app:layout_boxedEdges="all">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/hello_world"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:background="@null"
+            android:layout_gravity="bottom|left"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:src="@android:drawable/ic_menu_save" />
+
+        <ImageButton
+            android:background="@null"
+            android:layout_gravity="bottom|right"
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:src="@android:drawable/ic_menu_delete" />
+    </FrameLayout>
+</androidx.wear.widget.BoxInsetLayout>
