@@ -33,9 +33,6 @@ class TrackFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-
-
-
         _binding = FragmentTrackBinding.inflate(inflater, container, false)
         setupRecyclerView()
         setupView()
