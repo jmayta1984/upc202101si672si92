@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">permissions</string>
+    <string name="bt_camera">Camera</string>
+    <string name="bt_storage">storage</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CityApp</string>
+    <string name="hint_search">City</string>
+    <string name="bt_search">search</string>
+</resources>
